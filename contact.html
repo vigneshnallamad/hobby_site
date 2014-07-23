@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>StyleCraze</title>
+<link rel="shortcut icon" type="image/x-icon" href="style/images/favicon.png" />
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="style/color/red.css" media="all" />
+<link rel="stylesheet" type="text/css" media="screen" href="style/css/prettyPhoto.css"  />
+<link rel="stylesheet" type="text/css" href="style/type/museo.css" media="all" />
+<link rel="stylesheet" type="text/css" href="style/type/ptsans.css" media="all" />
+<link rel="stylesheet" type="text/css" href="style/type/charis.css" media="all" />
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="style/css/ie7.css" media="all" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="style/css/ie8.css" media="all" />
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="style/css/ie9.css" media="all" />
+<![endif]-->
+<script type="text/javascript" src="style/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="style/js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="style/js/transify.js"></script>
+<script type="text/javascript" src="style/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="style/js/jquery.superbgimage.min.js"></script>
+<script type="text/javascript" src="style/js/jquery.slickforms.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$('.forms').dcSlickForms();
+});
+</script>
+</head>
+<body>
+<!-- Fullscreen backgrounds -->
+<div id="thumbs">
+  <a href="style/images/art/bg1.jpg">1</a> 
+  <a href="style/images/art/bg2.jpg">2</a> 
+  <a href="style/images/art/bg3.jpg">3</a> 
+  <a href="style/images/art/bg4.jpg">4</a> 
+  <a href="style/images/art/bg5.jpg">5</a> 
+  <a href="style/images/art/bg6.jpg">6</a> 
+</div>
+<div id="superbgimage">
+  <div class="scanlines"></div>
+</div>
+<!-- End Fullscreen backgrounds --> 
+<!-- Begin Wrapper -->
+<div id="wrapper">
+  <div id="header">
+    <div class="logo"><a href="index.html"><img src="style/images/logo.png" alt="" /></a></div>
+    <div class="social">
+      <ul>
+        <li><a href="#"><img src="style/images/icon-facebook.png" alt="Facebook" /></a></li>
+        <li><a href="#"><img src="style/images/icon-twitter.png" alt="Twitter" /></a></li>
+        <li><a href="#"><img src="style/images/icon-googleplus.png" alt="Google+" /></a></li>
+        <li><a href="#"><img src="style/images/icon-tumblr.png" alt="Tumblr" /></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <!-- Begin Menu -->
+  <div id="menu" class="menu opacity">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Ethnic</a>
+        <ul>
+        	<li><a href="Salwars.html">Salwars</a></li>
+      	  <li><a href="Sarees.html">Sarees</a></li>
+        </ul>
+      </li>
+
+      <li><a href="index.html">Western</a>
+        <ul>
+        	<li><a href="Tops.html">Tops</a></li>
+<li><a href="Tees.html">Tees</a></li>
+<li><a href="Jeans.html">Jeans</a></li>
+
+        </ul>
+      <li><a href="index.html">Footwear</a>
+        <ul>
+        	<li><a href="Heels.html">Heels</a></li>
+<li><a href="Flats.html">Flats</a></li>
+<li><a href="Shoes.html">Shoes</a></li>
+        </ul>
+	<li><a href="index.html">Accessories</a>
+        <ul>
+        	<li><a href="Bags.html">Bags</a></li>
+<li><a href="Watches.html">Watches</a></li>
+        </ul>
+      </li><li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <br style="clear: left" />
+  </div>
+  <!-- End Menu --> 
+  
+  <!-- Begin Container -->
+  <div id="container" class="opacity">
+    <div class="content">
+      <h2>Contact Us</h2>
+      <p>Want to share a quick feedback? Awesumed by us? Or Not happy with the product?<br> Give us a shout! 
+</p>
+      <br />
+      <br />
+      <br />
+      <div class="form-container">
+        <form class="forms" action="contact/form-handler.php" method="post">
+          <fieldset>
+            <ol>
+              <li class="form-row text-input-row">
+                <label>Name*</label>
+                <input type="text" name="name" value="" class="text-input required" title="" />
+              </li>
+              <li class="form-row text-input-row">
+                <label>Email*</label>
+                <input type="text" name="email" value="" class="text-input required email" title="" />
+              </li>
+              <li class="form-row text-area-row">
+                <label>Message*</label>
+                <textarea name="message" class="text-area required"></textarea>
+              </li>
+              <li class="form-row hidden-row">
+                <input type="hidden" name="hidden" value="" />
+              </li>
+              <li class="button-row">
+                <input type="submit" value="Submit" name="submit" class="btn-submit" />
+              </li>
+            </ol>
+            <input type="hidden" name="v_error" id="v-error" value="Required" />
+            <input type="hidden" name="v_email" id="v-email" value="Enter a valid email" />
+          </fieldset>
+        </form>
+        <div class="response"></div>
+      </div>
+      <br />
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-box">
+        <h4>Address</h4>
+        <p>Plot no: 128, Phase II,<br>
+Electronic City, Bangalore-100
+          <br>
+          <br>
+          <span class="lite1">Fax:</span> +555 424 888 02<br>
+          <span class="lite1">Tel:</span> 
+
++9341291116<br>
+          <span class="lite1">E-mail:</span> StyleCraze@gmail.com</p>
+      </div>
+      <div class="sidebar-box">
+        <h4>Where are We?</h4>
+        <iframe width="265" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/?ie=UTF8&amp;ll=40.959289,29.082184&amp;spn=0.012963,0.022659&amp;z=14&amp;output=embed"></iframe>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+      <div class="footer-top"></div>
+      
+ </div>
+<!-- End Wrapper --> 
+<div id="copyright" class="opacity">
+    <p>All Rights Reserved. StyleCraze</p>
+  </div>
+  
+<script type="text/javascript" src="style/js/scripts.js"></script>
+</body>
+</html>
